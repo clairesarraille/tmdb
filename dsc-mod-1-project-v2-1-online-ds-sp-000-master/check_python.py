@@ -1,3 +1,3 @@
-# Keep these Columns:
-df = df_details[['id', 'title', 'release_date', 'revenue', 'budget',
-                 'genres_list_str', 'popularity', 'prod_list_str', 'runtime']].copy()
+df_q3['revenue_millions'] = '$' + (df_q3['revenue'].astype(round(float)/1000000, 2).astype(str) + 'MM'
+
+df['($) millions'] = '$' + (df['Amount'].astype(round(float,2))/1000000).astype(str) + 'MM'
