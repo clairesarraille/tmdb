@@ -1,6 +1,3 @@
-# Check that it worked:
-is_NaN = df_details.isnull()
-row_has_NaN = is_NaN.any(axis=1)
-rows_with_NaN = df_details[row_has_NaN]
-
-rows_with_NaN[['title', 'genres', 'genres_list_str']].iloc[0:3]
+# Keep these Columns:
+df = df_details[['id', 'title', 'release_date', 'revenue', 'budget',
+                 'genres_list_str', 'popularity', 'prod_list_str', 'runtime']].copy()
