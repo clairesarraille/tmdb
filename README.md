@@ -12,4 +12,6 @@ I use Anaconda to manage my datascience environment and python packages -- and I
 
 The analysis with genre and production company were made possible by Max Hilsdorf's wonderful and detailed tutorial on the subject of list values in columns. Please check out his blog post: [Dealing with List Values in Pandas Dataframes](https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173) and Jupyter Notebook [tutorial](https://github.com/MaxHilsdorf/dealing_with_lists_in_pandas).
 
-Enjoy, and happy data-sciencing!
+
+The appendix folder contains a short script mocking-up a method of scraping The Numbers data: https://www.the-numbers.com/box-office-star-records/domestic/yearly-acting/highest-grossing-2021-stars.
+In the future if I continue to analyze movie data I'd like to further develop this Beautiful Soup scraper to retrieve highest grossing stars data and compare correlations of high profit films, star power, and professional critic reviews.
