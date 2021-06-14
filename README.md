@@ -15,3 +15,5 @@ The analysis with genre and production company were made possible by Max Hilsdor
 
 The appendix folder contains a short script mocking-up a method of scraping The Numbers data: https://www.the-numbers.com/box-office-star-records/domestic/yearly-acting/highest-grossing-2021-stars.
 In the future if I continue to analyze movie data I'd like to further develop this Beautiful Soup scraper to retrieve highest grossing stars data and compare correlations of high profit films, star power, and professional critic reviews.
+
+Attribution: This product uses the TMDb API but is not endorsed or certified by TMDb
